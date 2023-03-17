@@ -1,0 +1,74 @@
+.card{
+    background-color: white;
+    margin: 1.5rem;
+    padding: 1rem;
+    border-radius: 15px;
+    
+}
+
+.content {
+    display: flex;
+    padding: 1rem;
+    
+}
+
+.content > p {
+    margin-left: 3rem;
+}
+
+.radius{
+    border-radius: 1rem;
+}
+
+.actionContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.actionContainer > div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.actionContainer > a{
+    background-color:rgb(0, 251, 255);
+    padding:0.5rem 1rem;
+    border-radius: 15px;
+    border-style: solid;
+}
+
+.actionContainer > a:hover{
+    background: rgb(2,0,36);
+    background: linear-gradient(165deg,
+ rgb(36, 0, 26) 0%,
+ rgb(9, 121, 56) 35%,
+ rgb(0, 255, 234) 100%);
+ 
+}
+
+.tagsContainer > p{
+    background: rgb(2,0,36);
+    background: linear-gradient(165deg,
+ rgb(36, 0, 26) 0%,
+ rgb(9, 121, 56) 35%,
+ rgb(0, 255, 234) 100%);
+
+ padding: 0.3rem 0.5rem;
+ border-radius: 20px;
+ min-width: 5rem;
+cursor: pointer;
+}
+
+
+
+
+/* Media queries */
+@media only screen and (max-width:700px){
+    
+    .Card{
+        margin: 10px;
+    }
+
+}
